@@ -1,0 +1,68 @@
+body{
+	background-color:#7F0055;
+	margin: 0;
+}
+
+.text-2{
+	margin: 0;
+	color: #fff;
+}
+
+@keyframes anim {
+	from {margin-left:3px;}
+	to {margin-left:1200px;}
+/*	0% {margin-left:0px;}
+	50% {margin-left:1200px;}	
+	100% {margin-left:0px;}*/
+
+}
+
+.text-2 {
+	animation:anim 5s 5;
+}
+
+
+.img-1-2{
+	position: relative;
+	height: 720px;
+	width: 100%;
+	background: #000;
+	
+}
+
+.img-1{
+	position: absolute;
+	padding: 100px;
+	width : 360px;
+	height: 440px;
+	margin: 0 auto ;
+	color: #EBC2EAFF;
+}
+
+.img-1:hover{
+	/*увеличение через от целого числа*/
+	transform: scale(0.5);
+}
+
+.img-2{
+	position: absolute;
+	float: left;
+	left: 50%;
+	padding: 100px;
+	width : 360px;
+	height: 440px;
+	margin: 0 auto ;
+	color: #EBC2EAFF;
+
+}
+/*новое*/
+.img-2:hover{
+	/*поворот*/
+	transform: rotate(360deg);
+	/*скорость перехода анимации*/
+	transition: 3s;
+}
+
+.img.trans{
+	
+}
